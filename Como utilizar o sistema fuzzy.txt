@@ -1,0 +1,44 @@
+1) Abrir o arquivo "ClassificacaoIDH.m" no MatLab;
+2) Executar o código clicando no botão "Run" na parte superior
+   da interface do MatLab;
+3) Serão apresentadas as mensagens na janela de comandos:
+	"Classificação de IDH a partir de PIB per capita, 
+	 % do PIB investido em Educação e % do PIB investido em Saúde
+	 .
+	 .
+	 .
+	 .
+	 .
+	 Faixas e unidades das entradas: 
+	 PIB per capita -> [0, 200000], U$D
+	 Investimento em educação -> [0, 8], % do PIB investido
+	 Investimento em saúde -> [0, 18], % do PIB investido
+	 PIB per capita em U$D >> "
+
+4) Informar o valor do PIB per capita na janela de comandos e
+   pressionar Enter;
+
+5) Será exibida a seguinte mensagem na janela de comandos:
+	"Porcentagem do PIB investido em Educação >> "
+
+
+6) Informar o valor da porcentagem (apenas número) do PIB
+   utilizada para financiar a Educação na janela de comandos e
+   pressionar Enter;
+
+7) Será exibida a seguinte mensagem na janela de comandos:
+	"Porcentagem do PIB investido em Saúde >> "
+
+
+8) Informar o valor da porcentagem (apenas número) do PIB
+   utilizada para financiar a Saúde na janela de comandos e
+   pressionar Enter;
+
+9) Será exibido na janela de comandos a classificação do IDH após
+   processados os dados no sistema fuzzy;
+
+10) Será exibida a mensagem "continua ? (s/n): ";
+
+11) Entrar com "s" se deseja reexecutar a rotina do classificador
+    de IDH (repete a partir do passo 3) ou com qualquer outro
+    valor/caractere para encerrar a execução.
